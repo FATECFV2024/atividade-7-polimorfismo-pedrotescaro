@@ -1,5 +1,9 @@
 public class Joltreon extends Eevee{
 
+    public Joltreon() {
+        super("Elétrico", 24.5, 80, 130);
+    }
+
     @Override
     public String ataque(){
         return "Trovoada - Thunder Shock";  
